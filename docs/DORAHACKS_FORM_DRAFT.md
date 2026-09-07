@@ -8,12 +8,14 @@
 - **Track:** AI
 - **GitHub:** `https://github.com/ZacLou/attest-ai`
 - **Website:** `https://attest-ai-livid.vercel.app`
-- **Demo video:** pending final end-to-end recording
+- **Demo video (interim):** `https://github.com/ZacLou/attest-ai/raw/main/output/video/attest-ai-stage-draft.mp4`
 - **Social link:** `https://t.me/zacshare`
 
 ## Vision
 
 AI agents are increasingly allowed to trigger payments and infrastructure actions, but operators cannot prove what evidence the agent acted on. Mutable logs and LLM explanations do not survive an audit. Attest AI turns a proposed agent action into a versioned deterministic risk policy, writes the policy result as a signed event on Sepolia, proves that exact event with the Attestcoin Protocol, and records a public allow/deny decision on Creditcoin CC3 Testnet. The result is a verified agent guard with no centralized oracle, no backend, and no private-key custody.
+
+The current release is staged honestly: Sepolia signal, Attestcoin proof, and deterministic policy are working end-to-end; the final CC3 decision will unlock as soon as the official faucet funds the dedicated test wallet.
 
 ## Why this is different
 
@@ -28,7 +30,7 @@ AI agents are increasingly allowed to trigger payments and infrastructure action
 - Sepolia source contract and deployment transaction are linked in the README.
 - High-risk and low-risk source events and official Attestcoin proofs are stored under `docs/evidence/`.
 - CC3 deployment and both final decisions will be appended to the README immediately after the official Discord faucet funds the dedicated test wallet.
-- The demo will show both an allowed 0.01 ETH action and a denied 0.6 ETH action in one complete recording.
+- The current 30-second draft shows the live app, low- and high-risk policy results, and the honest pending CC3 state. The final recording will add both CC3 decisions after the official faucet funds the dedicated wallet.
 
 ## Final submission checklist
 

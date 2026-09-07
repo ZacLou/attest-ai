@@ -2,6 +2,8 @@
 
 Attest AI is a cross-chain AI safety console for Creditcoin's BUIDL CTC 2026 Fall hackathon. It turns an agent intent into a deterministic, explainable risk score, writes that score to Sepolia as an event, proves the event with the Attestcoin Protocol, and records the verified allow/deny decision on Creditcoin CC3 Testnet.
 
+The app is intentionally staged: Sepolia source events and Attestcoin proofs are already supported end-to-end; the final CC3 decision unlocks automatically once the official faucet funds the dedicated test wallet.
+
 The AI layer is intentionally not the trust anchor. The browser computes a versioned deterministic policy, and the Creditcoin precompile proves the source transaction. This makes the final registry entry independently auditable without trusting a centralized oracle, an LLM, or an app server.
 
 ## Current deployment
@@ -19,6 +21,7 @@ The AI layer is intentionally not the trust anchor. The browser computes a versi
 - Public CC3 RPC: `https://rpc.cc3-testnet.creditcoin.network`
 - CC3 chain ID: `102031`
 - Public CC3 explorer: `https://creditcoin-testnet.blockscout.com`
+- Current deployment stage: Sepolia + Attestcoin are live; CC3 decision is pending official faucet funding.
 
 ## Product flow
 
@@ -181,6 +184,9 @@ The dedicated deployment wallet currently has Sepolia ETH and is waiting for CC3
 8. Show the final `DecisionRecorded` mapping and both explorer links.
 9. Repeat with a high-risk value such as `0.6` to show denial.
 
+An interim 30-second stage draft is available at `output/video/attest-ai-stage-draft.mp4`. It
+shows the live application, low-risk score, denied high-risk score, and the pending CC3 state.
+
 ## Hackathon requirement mapping
 
 - Original Attestcoin integration: native verifier and custom ASC contracts
@@ -190,7 +196,7 @@ The dedicated deployment wallet currently has Sepolia ETH and is waiting for CC3
 - README: this document
 - Technical documentation: this document and `docs/PRODUCT_SPEC.md`
 - Testnet transactions: source deployment linked above; final source signal and CC3 proof will be linked after full testnet run
-- Demo video: pending final end-to-end recording
+- Demo video: interim stage draft complete; final end-to-end recording pending CC3 faucet
 
 ## Safety
 
@@ -203,5 +209,5 @@ The dedicated deployment wallet currently has Sepolia ETH and is waiting for CC3
 ## Known limitations
 
 - CC3 deployment is pending testnet gas from the official Discord faucet.
-- Final demo video will be added after the full end-to-end run.
+- The final end-to-end demo video will replace the interim draft after the full run.
 - CC3 testnet faucet delivery is pending through the official Discord `token-faucet` channel.

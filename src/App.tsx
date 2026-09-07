@@ -8,8 +8,9 @@ import {
 } from "./lib/attestcoin";
 import {
   ATTEST_GUARD_ADDRESS,
-  DEPLOYMENT_READY,
+  ATTEST_GUARD_READY,
   SOURCE_SIGNAL_ADDRESS,
+  SOURCE_READY,
 } from "./lib/deployment";
 import { CREDITCOIN_CC3_TESTNET } from "./lib/chains";
 import { explainRisk, RISK_THRESHOLD } from "./lib/risk";
@@ -153,7 +154,8 @@ export default function App() {
     status === "waiting-attestation" ||
     status === "target-signing";
   const canCreateSignal =
-    Boolean(injected && subjectIsValid && sourceValue != null && DEPLOYMENT_READY) && !busy && status !== "confirmed";
+    Boolean(injected && subjectIsValid && sourceValue != null && SOURCE_READY) && !busy && status !== "confirmed";
+  const canSubmitProof = Boolean(injected && proof && sourceSignal && ATTEST_GUARD_READY) && !busy;
 
   return (
     <main className="app-shell">
@@ -240,17 +242,21 @@ export default function App() {
             >
               {status === "source-signing" ? "Signing on Sepolia…" : "Create verified signal"}
             </button>
-            {status === "proof-ready" ? (
-              <button type="button" onClick={handleSubmitProof}>
+          {status === "proof-ready" ? (
+              <button type="button" onClick={handleSubmitProof} disabled={!canSubmitProof}>
                 Verify on Creditcoin
               </button>
             ) : null}
           </div>
 
-          {!DEPLOYMENT_READY ? (
+          {!SOURCE_READY ? (
             <p className="warning-text">
-              Testnet contracts are not configured yet. Deploy contracts first, then set the two
-              Vite address variables.
+              The Sepolia source contract is not configured yet.
+            </p>
+          ) : !ATTEST_GUARD_READY ? (
+            <p className="warning-text">
+              Sepolia and Attestcoin are live. Creditcoin CC3 decision is pending official test
+              faucet funding.
             </p>
           ) : null}
         </section>
@@ -337,7 +343,9 @@ export default function App() {
           {status === "source-signing" && "Waiting for your wallet signature on Sepolia."}
           {status === "waiting-attestation" &&
             `Waiting for Attestcoin attestation. This typically takes several minutes.`}
-          {status === "proof-ready" && "Proof is ready. Submit it to Creditcoin CC3 Testnet."}
+          {status === "proof-ready" && (ATTEST_GUARD_READY
+            ? "Proof is ready. Submit it to Creditcoin CC3 Testnet."
+            : "Proof is ready. Creditcoin CC3 decision is pending testnet faucet funding.")}
           {status === "target-signing" && "Waiting for your wallet signature on Creditcoin."}
           {status === "confirmed" && "Verified decision recorded on Creditcoin."}
         </p>

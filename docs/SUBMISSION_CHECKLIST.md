@@ -12,8 +12,10 @@
 - [x] Project brief PDF: `output/pdf/Attest-AI-Project-Brief.pdf`
 - [x] BUIDL logo: `output/image/attest-ai-logo-480.png`
 - [x] DoraHacks form draft: `docs/DORAHACKS_FORM_DRAFT.md`
+- [x] Demo storyboard: `docs/DEMO_STORYBOARD.md`
 - [x] Deployed application URL: `https://attest-ai-livid.vercel.app`
-- [ ] Demo video (after final end-to-end run)
+- [x] Interim demo video: `output/video/attest-ai-stage-draft.mp4`
+- [ ] Final end-to-end demo video (after CC3 faucet)
 
 ## Chain evidence
 
@@ -33,7 +35,7 @@
 ## Verification gates
 
 - [x] TypeScript strict type check
-- [x] React and application tests: 11 passing
+- [x] React and application tests: 13 passing
 - [x] Production Vite build
 - [x] Foundry contract tests: 13 passing
 - [x] PDF visual review at 6 pages
