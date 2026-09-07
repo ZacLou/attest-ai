@@ -366,6 +366,9 @@ def build(output_path):
             ["Low-risk signal", "0xd9fe599bbf2f870314d2884250359113998c73ed0b473832db0ab7efca853ef4"],
             ["Low-risk score", "20 / 100 - expected allow"],
             ["Low-risk proof", "Saved at docs/evidence/low-risk-proof.json"],
+            ["Current-stage low-risk signal", "0xa25f30cf1f9809e299b9af09d6679a37056f1074ba34a3cf0f3f6e518b77a960"],
+            ["Current-stage official proof", "Saved at docs/evidence/stage-low-risk-proof.json"],
+            ["Interim demo video", "https://attest-ai-livid.vercel.app/demo/attest-ai-stage-demo.mp4"],
             ["CC3 guard", "Pending official Discord testnet faucet"],
     ]
     evidence_table = Table(evidence_data, colWidths=[42 * mm, 113 * mm])
@@ -389,10 +392,10 @@ def build(output_path):
             Spacer(1, 12),
             Paragraph("Submission status", styles["H2"]),
             Paragraph(
-                "Source, contracts, client, tests, README, this brief, and the public Vercel application are "
-                "complete. Full CC3 deployment and the end-to-end demonstration video are scheduled as soon as "
-                "the official faucet delivers testnet CTC. All final transaction links will be written into the "
-                "repository README and the DoraHacks submission form.",
+                "Source, contracts, client, tests, README, this brief, the public Vercel application, the current-stage "
+                "Attestcoin proof, and a 2m19s 1080p interim demo are complete. Full CC3 decisions and the final "
+                "end-to-end video are scheduled as soon as the official faucet delivers testnet CTC. All final "
+                "transaction links will be written into the repository README and the DoraHacks submission form.",
                 styles["Body"],
             ),
         ]
