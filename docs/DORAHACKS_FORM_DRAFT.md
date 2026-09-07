@@ -29,6 +29,7 @@ The current release is staged honestly: Sepolia signal, Attestcoin proof, and de
 
 - Sepolia source contract and deployment transaction are linked in the README.
 - High-risk and low-risk source events and official Attestcoin proofs are stored under `docs/evidence/`.
+- The current-stage app demo generated a new low-risk event and official proof at Sepolia height `11652762`.
 - CC3 deployment and both final decisions will be appended to the README immediately after the official Discord faucet funds the dedicated test wallet.
 - The current 30-second draft shows the live app, low- and high-risk policy results, and the honest pending CC3 state. The final recording will add both CC3 decisions after the official faucet funds the dedicated wallet.
 

@@ -15,6 +15,8 @@ The AI layer is intentionally not the trust anchor. The browser computes a versi
 - Official high-risk proof: `docs/evidence/high-risk-proof.json`
 - Sepolia low-risk signal: `0xd9fe599bbf2f870314d2884250359113998c73ed0b473832db0ab7efca853ef4`
 - Official low-risk proof: `docs/evidence/low-risk-proof.json`
+- Current stage low-risk signal: `0xa25f30cf1f9809e299b9af09d6679a37056f1074ba34a3cf0f3f6e518b77a960`
+- Official current stage proof: `docs/evidence/stage-low-risk-proof.json`
 - CC3 `AttestGuard`: pending testnet gas
 - Public proof builder: `https://prover.cc3-testnet.creditcoin.network`
 - Public Sepolia RPC: `https://ethereum-sepolia-rpc.publicnode.com`

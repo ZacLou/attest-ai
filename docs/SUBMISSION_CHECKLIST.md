@@ -25,6 +25,8 @@
 - [x] High-risk Attestcoin proof: `docs/evidence/high-risk-proof.json`
 - [x] Low-risk source event: `docs/evidence/low-risk-source.json`
 - [x] Low-risk Attestcoin proof: `docs/evidence/low-risk-proof.json`
+- [x] Current-stage low-risk source event: `docs/evidence/stage-low-risk-source.json`
+- [x] Current-stage official Attestcoin proof: `docs/evidence/stage-low-risk-proof.json`
 - [ ] CC3 `AttestGuard` deployment transaction
 - [ ] Low-risk CC3 allow-record transaction
 - [ ] Low-risk CC3 decision evidence: `docs/evidence/low-risk-decision.json`
