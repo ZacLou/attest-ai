@@ -1,0 +1,10 @@
+{
+  "chain": "Sepolia",
+  "sourceContract": "0x7CFC5C06aFfBe46c55b9d5313A9ab2A5faa1a2BD",
+  "transactionHash": "0x6302b379257c1a6aa700b210fd8234b672e4b465805f4d928f3de9555195ce9f",
+  "blockNumber": 11651830,
+  "intentId": "0x7db5cd16c444a2bb8baf38449c45859b8129e3c9dfc571d75367c8a74a07625d",
+  "sourceValue": "600000000000000000",
+  "riskScore": 80,
+  "expectedDecision": "deny"
+}

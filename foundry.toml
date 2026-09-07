@@ -1,0 +1,12 @@
+[profile.default]
+src = "contracts"
+out = "build/contracts"
+libs = ["node_modules"]
+optimizer = true
+optimizer_runs = 200
+via_ir = true
+verbosity = 3
+
+[rpc_endpoints]
+sepolia = "https://ethereum-sepolia-rpc.publicnode.com"
+creditcoin = "https://rpc.cc3-testnet.creditcoin.network"

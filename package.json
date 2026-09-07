@@ -1,0 +1,35 @@
+{
+  "name": "attest-ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "compile": "forge build",
+    "test:contracts": "forge test",
+    "fetch:proof": "node scripts/fetch-proof.mjs",
+    "verify": "npm run typecheck && npm test && npm run build && forge test"
+  },
+  "dependencies": {
+    "@gluwa/asc-contracts": "0.2.1",
+    "@gluwa/usc-sdk": "0.18.0",
+    "ethers": "^6.17.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.7",
+    "@types/node": "^26.1.0",
+    "@vitejs/plugin-react": "^5.2.0",
+    "jsdom": "^29.1.1",
+    "typescript": "^6.0.2",
+    "vite": "^7.3.0",
+    "vitest": "^3.2.4"
+  }
+}
