@@ -6,6 +6,7 @@
 - [x] AI track
 - [x] GitHub repository: `https://github.com/ZacLou/attest-ai`
 - [x] Source code: contracts, frontend, tests, scripts, and evidence
+- [x] GitHub push: `ff3e54b` on public `main`
 - [x] Technical README with setup and verification commands
 - [x] Product specification: `docs/PRODUCT_SPEC.md`
 - [x] Project brief PDF: `output/pdf/Attest-AI-Project-Brief.pdf`
