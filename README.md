@@ -184,8 +184,9 @@ The dedicated deployment wallet currently has Sepolia ETH and is waiting for CC3
 8. Show the final `DecisionRecorded` mapping and both explorer links.
 9. Repeat with a high-risk value such as `0.6` to show denial.
 
-An interim 30-second stage draft is available at `output/video/attest-ai-stage-draft.mp4`. It
-shows the live application, low-risk score, denied high-risk score, and the pending CC3 state.
+An interim 30-second stage draft is available at
+`https://attest-ai-livid.vercel.app/demo/attest-ai-stage-draft.mp4`. It shows the live
+application, low-risk score, denied high-risk score, and the pending CC3 state.
 
 ## Hackathon requirement mapping
 

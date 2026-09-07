@@ -14,7 +14,7 @@
 - [x] DoraHacks form draft: `docs/DORAHACKS_FORM_DRAFT.md`
 - [x] Demo storyboard: `docs/DEMO_STORYBOARD.md`
 - [x] Deployed application URL: `https://attest-ai-livid.vercel.app`
-- [x] Interim demo video: `output/video/attest-ai-stage-draft.mp4`
+- [x] Interim demo video: `https://attest-ai-livid.vercel.app/demo/attest-ai-stage-draft.mp4`
 - [ ] Final end-to-end demo video (after CC3 faucet)
 
 ## Chain evidence

@@ -8,7 +8,7 @@
 - **Track:** AI
 - **GitHub:** `https://github.com/ZacLou/attest-ai`
 - **Website:** `https://attest-ai-livid.vercel.app`
-- **Demo video (interim):** `https://github.com/ZacLou/attest-ai/raw/main/output/video/attest-ai-stage-draft.mp4`
+- **Demo video (interim):** `https://attest-ai-livid.vercel.app/demo/attest-ai-stage-draft.mp4`
 - **Social link:** `https://t.me/zacshare`
 
 ## Vision
