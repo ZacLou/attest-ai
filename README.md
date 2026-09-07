@@ -6,6 +6,7 @@ The AI layer is intentionally not the trust anchor. The browser computes a versi
 
 ## Current deployment
 
+- Public application: `https://attest-ai-livid.vercel.app`
 - Sepolia `SourceRiskSignal`: `0x7CFC5C06aFfBe46c55b9d5313A9ab2A5faa1a2BD`
 - Sepolia deployment transaction: `0x0bc6fbe5979818906e1587fa32112a999afff19c5f87bb72470cab54e047ca22`
 - Sepolia high-risk signal: `0x6302b379257c1a6aa700b210fd8234b672e4b465805f4d928f3de9555195ce9f`
@@ -157,7 +158,7 @@ The dedicated deployment wallet currently has Sepolia ETH and is waiting for CC3
 
 ## Demo script
 
-1. Open the deployed app.
+1. Open `https://attest-ai-livid.vercel.app`.
 2. Connect an EVM wallet.
 3. Enter a valid recipient and a low-risk value such as `0.01`.
 4. Show the policy reasons and score.
@@ -171,7 +172,7 @@ The dedicated deployment wallet currently has Sepolia ETH and is waiting for CC3
 
 - Original Attestcoin integration: native verifier and custom ASC contracts
 - Working integration: Sepolia + CC3 Testnet + official proof builder
-- Deployed application: Vercel-ready static frontend
+- Deployed application: `https://attest-ai-livid.vercel.app`
 - Source code: this repository
 - README: this document
 - Technical documentation: this document and `docs/PRODUCT_SPEC.md`
@@ -189,5 +190,5 @@ The dedicated deployment wallet currently has Sepolia ETH and is waiting for CC3
 ## Known limitations
 
 - CC3 deployment is pending testnet gas from the official Discord faucet.
-- Final demo video and Vercel URL will be added after the full end-to-end run.
+- Final demo video will be added after the full end-to-end run.
 - The current public CC3 explorer URL may require manual RPC verification for some browsers.

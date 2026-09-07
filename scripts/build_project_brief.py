@@ -389,10 +389,10 @@ def build(output_path):
             Spacer(1, 12),
             Paragraph("Submission status", styles["H2"]),
             Paragraph(
-                "Source, contracts, client, tests, README, and this brief are complete. Full CC3 deployment "
-                "and the end-to-end demonstration video are scheduled as soon as the official faucet delivers "
-                "testnet CTC. All final transaction links will be written into the repository README and the "
-                "DoraHacks submission form.",
+                "Source, contracts, client, tests, README, this brief, and the public Vercel application are "
+                "complete. Full CC3 deployment and the end-to-end demonstration video are scheduled as soon as "
+                "the official faucet delivers testnet CTC. All final transaction links will be written into the "
+                "repository README and the DoraHacks submission form.",
                 styles["Body"],
             ),
         ]

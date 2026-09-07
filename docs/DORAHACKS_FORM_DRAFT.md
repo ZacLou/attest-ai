@@ -7,7 +7,7 @@
 - **Category:** Crypto / Web3
 - **Track:** AI
 - **GitHub:** `https://github.com/ZacLou/attest-ai`
-- **Website:** pending Vercel deployment
+- **Website:** `https://attest-ai-livid.vercel.app`
 - **Demo video:** pending final end-to-end recording
 - **Social link:** `https://t.me/zacshare`
 
@@ -35,7 +35,7 @@ AI agents are increasingly allowed to trigger payments and infrastructure action
 1. Confirm Discord has funded the CC3 test wallet with official test CTC.
 2. Deploy `AttestGuard`, register the trusted source, and copy the public address into `.env` and Vite variables.
 3. Run both official proof submissions and save the final CC3 transactions.
-4. Deploy the frontend to Vercel.
+4. Confirm the public Vercel deployment remains accessible without login.
 5. Record the 2-3 minute demo at 1080p.
 6. Push the final repository state to GitHub.
 7. Submit the BUIDL on DoraHacks.

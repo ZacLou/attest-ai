@@ -6,13 +6,13 @@
 - [x] AI track
 - [x] GitHub repository: `https://github.com/ZacLou/attest-ai`
 - [x] Source code: contracts, frontend, tests, scripts, and evidence
-- [x] GitHub push: `ff3e54b` on public `main`
+- [x] GitHub push: final accepted commit on public `main`
 - [x] Technical README with setup and verification commands
 - [x] Product specification: `docs/PRODUCT_SPEC.md`
 - [x] Project brief PDF: `output/pdf/Attest-AI-Project-Brief.pdf`
 - [x] BUIDL logo: `output/image/attest-ai-logo-480.png`
 - [x] DoraHacks form draft: `docs/DORAHACKS_FORM_DRAFT.md`
-- [ ] Deployed application URL (after Vercel deployment)
+- [x] Deployed application URL: `https://attest-ai-livid.vercel.app`
 - [ ] Demo video (after final end-to-end run)
 
 ## Chain evidence
@@ -36,6 +36,7 @@
 - [x] Foundry contract tests: 13 passing
 - [x] PDF visual review at 6 pages
 - [x] Responsive app review at 1280px, 768px, and 390px
+- [x] Public Vercel deployment review without login
 - [ ] Full browser end-to-end flow with wallet signature
 - [ ] Final `npm run verify` after CC3 addresses are configured
 
