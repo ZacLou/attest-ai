@@ -95,6 +95,7 @@ npm run typecheck
 npm test
 npm run build
 forge test
+python3 -m pip install -r tools/documentation/requirements.txt
 python3 scripts/build_project_brief.py
 python3 scripts/build_project_logo.py
 ```
