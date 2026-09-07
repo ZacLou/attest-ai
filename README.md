@@ -131,6 +131,17 @@ Register the trusted source emitter:
 ./scripts/set-trusted-source.sh
 ```
 
+Submit an existing official proof and write the CC3 decision evidence:
+
+```bash
+node scripts/submit-decision.mjs \
+  --proof docs/evidence/low-risk-proof.json \
+  --output docs/evidence/low-risk-decision.json
+node scripts/submit-decision.mjs \
+  --proof docs/evidence/high-risk-proof.json \
+  --output docs/evidence/high-risk-decision.json
+```
+
 Copy the public addresses into the Vite variables:
 
 ```dotenv

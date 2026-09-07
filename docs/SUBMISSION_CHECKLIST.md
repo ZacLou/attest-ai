@@ -25,8 +25,10 @@
 - [x] Low-risk Attestcoin proof: `docs/evidence/low-risk-proof.json`
 - [ ] CC3 `AttestGuard` deployment transaction
 - [ ] Low-risk CC3 allow-record transaction
+- [ ] Low-risk CC3 decision evidence: `docs/evidence/low-risk-decision.json`
 - [x] High-risk CC3 deny-record intent and proof data
 - [ ] High-risk CC3 deny-record transaction
+- [ ] High-risk CC3 decision evidence: `docs/evidence/high-risk-decision.json`
 
 ## Verification gates
 
