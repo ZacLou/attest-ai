@@ -11,6 +11,7 @@ import {
   DEPLOYMENT_READY,
   SOURCE_SIGNAL_ADDRESS,
 } from "./lib/deployment";
+import { CREDITCOIN_CC3_TESTNET } from "./lib/chains";
 import { explainRisk, RISK_THRESHOLD } from "./lib/risk";
 import {
   createSourceSignal,
@@ -290,7 +291,7 @@ export default function App() {
               {decision ? (
                 <>
                   <span>{decision.allowed ? "Allowed" : "Denied"}</span>
-                  <a href={transactionUrl("https://explorer.cc3-testnet.creditcoin.network", decision.transactionHash)}>
+                  <a href={transactionUrl(CREDITCOIN_CC3_TESTNET.blockExplorerUrls[0] ?? "", decision.transactionHash)}>
                     View Creditcoin transaction
                   </a>
                 </>

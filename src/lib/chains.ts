@@ -17,10 +17,10 @@ export const SEPOLIA: NetworkConfig = {
 };
 
 export const CREDITCOIN_CC3_TESTNET: NetworkConfig = {
-  chainId: 102030,
+  chainId: 102031,
   hexChainId: "0x18e8f",
   name: "Creditcoin CC3 Testnet",
   rpcUrls: ["https://rpc.cc3-testnet.creditcoin.network"],
-  nativeCurrency: { name: "Creditcoin", symbol: "CTC", decimals: 18 },
-  blockExplorerUrls: ["https://explorer.cc3-testnet.creditcoin.network"],
+  nativeCurrency: { name: "Creditcoin Testnet", symbol: "tCTC", decimals: 18 },
+  blockExplorerUrls: ["https://creditcoin-testnet.blockscout.com"],
 };

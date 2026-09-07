@@ -17,6 +17,8 @@ The AI layer is intentionally not the trust anchor. The browser computes a versi
 - Public proof builder: `https://prover.cc3-testnet.creditcoin.network`
 - Public Sepolia RPC: `https://ethereum-sepolia-rpc.publicnode.com`
 - Public CC3 RPC: `https://rpc.cc3-testnet.creditcoin.network`
+- CC3 chain ID: `102031`
+- Public CC3 explorer: `https://creditcoin-testnet.blockscout.com`
 
 ## Product flow
 
@@ -191,4 +193,4 @@ The dedicated deployment wallet currently has Sepolia ETH and is waiting for CC3
 
 - CC3 deployment is pending testnet gas from the official Discord faucet.
 - Final demo video will be added after the full end-to-end run.
-- The current public CC3 explorer URL may require manual RPC verification for some browsers.
+- CC3 testnet faucet delivery is pending through the official Discord `token-faucet` channel.
